@@ -1,0 +1,8 @@
+    if (box1act == true&& box2act == true && box3act == true){
+      if (box1oc == 0 && box2oc == 0 && box3oc == 0 ){
+        document.getElementById("whosemove").innerHTML = "Tic Tac Toe Ai (Easy): <b>You Win</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
+      }
+      if (box1oc == 0 && box2oc == 0 && box3oc == 0){
+        document.getElementById("whosemove").innerHTML = "Tic Tac Toe Ai (Easy): <b>You Lost</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
+      }
+    }
